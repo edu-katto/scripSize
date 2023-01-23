@@ -1,0 +1,2 @@
+0 8,12 * * * /usr/bin/python3 /home/[[USER]]/scripSize/size.py i 2>&1
+0 */1 * * * /usr/bin/python3 /home/[[USER]]/scripSize/size.py p 2>&1
