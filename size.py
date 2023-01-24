@@ -39,7 +39,7 @@ if porcentajeUso >= "95":
 
 
 if parametro == 'i':
-    sendMail("Almacenamiento " + config('SERVER_NAME') + "(Información)",
+    sendMail("Almacenamiento " + config('SERVER_NAME') + " (Información)",
         "Servidor " + config('SERVER_NAME') + " (Información)\n" +
         "Espacio Total: " + str(espacioTotal) + " GB. \n" +
         "Espacio Utilizado: " + str(espacioUsado) + " GB. \n" +
